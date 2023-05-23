@@ -27,7 +27,7 @@ A single map is displayed on a grid using a 80 x 21 character layouts. The ncurs
 
 ### Buildings 
 - C: Pokecenters, used for healing pokemons and changing current pokemon grouping and compositions
-- M: POkemarts, used for purchasing pokeballs, revives, and potions
+- M: Pokemarts, used for purchasing pokeballs, revives, and potions
 
 ### Terrain symbols
 - % : Boulders, edge of the world
@@ -49,7 +49,13 @@ Users interact with the game via the commands below
 - 1: lower left
 - 4: left
 
-### 
+### Other commands
+- \> : Entering pokemarts and pokecenters
+- < : Exiting pokemarts and pokecenters
+- Q : Quitting the game
+- t : Shows the number of NPC on current map
+- b : Shows contents of bag
+- ESC : Exiting and returning to normal game interface
 
 
 
