@@ -1,0 +1,138 @@
+9/5
+
+Added terrain generation functionality 
+- Initialzed map with empty terrains
+- Used random region function to spawn random terrain elements
+- Implemented growRegion function to expand terrain elements across the map
+- Added printing with color functionality 
+- Deterministic map generation can be achieved by supply seed to randomNumberSettings function
+- Added random exits generation to map
+- Added random path generation from exits
+
+
+9/6
+- Implemented pokemart and pokecenter generation within path generation function
+
+
+9/12
+- Implemented Map struct, allowing maps to be stored in a map object
+- Refactored code by moving code related to terrain generation to map.h
+
+
+9/13
+- Implemented World struct, allowing it to store 2d arrays of map pointers
+- Implemented user controls for going north, east, south, west of the map
+- Implemented fly controls and boundary checking
+- Added functionality for matching exits with other maps when moving
+- Implemented debugging functions, allowing for easier devbugging to be done
+
+
+9/14
+- Added functionality to seal exits of maps in the edges of the world
+- Added functionality to generate pokemart and pokecenter based on distance 
+- Added boundary checking for n, e,s, w inputs
+
+
+9/20
+-Added Min heap implementation for djiktra's algorithm
+-Added struct Person to record PC's current x and y position
+-Shifted world struct to the same location as map struct
+
+
+9/21
+-Implemented djisktra's algorithm for hiker and rival
+- Implemented print function for printing out cost after djikstra computation
+
+
+9/22
+-Refactored code in main
+-Edited Readme and changelog
+-Added minimal fixes to djikstra's algorithm
+
+10/3
+- Added Npc class
+- Refactored min heap and placed min heap into seperate .h file for reusability
+- Added Npc random spawing methods and printing overlays
+
+10/4
+- Added movement logic for all npc's
+- Minheap implementation for npc movement order
+
+10/17
+- Refactored code to use ncurses library
+
+10/18
+- Added logic for recomputing djiktra everytime the pc moves
+- Added logic for handling inputs for users
+
+10/19
+- Added pc logic when pc enters battle, pokemart or pokecenter
+- Added logic to print list of player details
+
+10/25
+- Converted c code to C++
+- Added logic for handling fly methods
+- Added additional heap, and npc property to maps
+
+10/26
+- Added logic for handling exits to other maps
+
+11/1
+- Refactored code for previous assignment
+- Added classes for pokemons
+
+11/2
+- Implemented file fetching module
+- Implemented print method for each data type and user input
+
+11/6
+- Refactored code on main
+
+11/7
+- Added changes to original Pokemon class
+- Added logic for spawning pokemon
+
+11/8
+- Added new Stat class
+- Added logic for battle prompt, moves, generating stats
+
+11/14
+- Restructure header file ordering
+- Remove useless methods, decreasing no of function calls to speed up compile/run time
+
+11/16
+- Added logic for bag items
+- Added logic for healing pokemons
+
+11/17
+- Added logic for reviving and capturing pokemons
+
+11/22
+- Added logic for entering marts and centers to heal/ replenish supplies
+
+11/23
+- Added logic for battling pokemons for spawned wild pokemons
+
+11/24
+- Added logic for battling npc
+
+
+---------------------------------Assignment 1.10-----------------------------------------
+
+11/28
+- Added logic for money system when fighting NPC
+
+11/29
+- Added logic for purchasing potions, revives and pokeballs
+- Added new class for pokeballs (Great, Ultra, Master balls)
+
+11/30
+- Tweaked logic of capturing pokemons
+- Capture rate varies based on types of pokeball used
+
+12/1
+- Added logic for swapping pokemons when entering pokecenter
+- Captured pokemons automatically transfer to pokedex, not to PC
+- Added logic to handle knocked out PC pokemons prior to battle
+- Fixed map boundary issues
+
