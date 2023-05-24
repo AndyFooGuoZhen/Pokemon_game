@@ -1,4 +1,4 @@
-# Pokemon_game
+# Pokemon game
 
 This is a CLI based pokemon game that was developed using C/C++ and the ncruses library for my class project. This game is developed initially using C and was ported to C++ in later parts of the semester.
 
@@ -56,7 +56,7 @@ Users interact with the game via the commands below
 - b : Shows contents of bag
 - ESC : Exiting and returning to normal game interface
 
-### Inner workings of NPC
+### Inner workings of NPCs
 - A heap implemenetaion of Djikstra's algorithm was used for computing the shortest distance for NPC to reach the user. 
 - Due to the limitations bounded by the terrain for Rivals and Hikers, the shortest paths for these NPC had to be tweaked according to the costs of the incrossable terrains.
 - For every move the user makes, the Djikstra algorithm had to be run again to compute a new shortest path
